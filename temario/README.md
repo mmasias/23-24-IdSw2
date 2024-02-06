@@ -1,13 +1,62 @@
 # Temario
 
-- [x] **[Introducción](00-00-introduccion.md)**
-  - [x] **[Sub tema introducción](00-01-Algoritmos.md)**
-- [ ] Tema 1
-  - [ ] Sub tema 1.1
-  - [ ] Sub tema 1.2
-  - [ ] Sub tema 1.3
-- [ ] Tema 2
-- [ ] Tema 3
+## Introducción
+
+> Nivel: la base...
+
+- [ ] Software
+- [ ] Complejidad
+- [ ] Análisis y Diseño
+
+## Diseño
+
+> Nivel: línea...
+
+- [ ] Modelo del Dominio
+- [ ] Estrategias de clasificación
+- [ ] Relaciones entre clases
+    - [ ] xColaboración
+    - [ ] xTransmisión
+- [ ] Clean code:
+    - [ ] Nombrado
+    - [ ] Comentarios
+
+### Caso ejemplo: [repo de **theWorld**](https://github.com/puntoReflex/pyAspiradora)
+
+- Clases por colaboración: *rama mundo-habitacion-baldosa-gato*
+- Clases por transmisión: *rama mundo-habitacion-baldosa-elemento*
+
+## Diseño modular
+
+> Nivel: clases y métodos...
+
+- [ ] Cohesión
+- [ ] Acoplamiento
+- [ ] Granularidad
+- [ ] Smell Codes
+- [ ] Patrón Modelo, Vista, Controlador (Código)
+
+## Diseño orientado a objetos
+
+> Nivel: Jerarquías de clasificación
+
+- [ ] S Principio de responsabilidad única
+- [ ] O Principio de abierto/cerrado
+- [ ] L Principio de Sustitución de Liskov
+- [ ] I Principio de segregación de interfaces
+- [ ] D Principio de Inversión de Dependencias
+- [ ] Demeter
+- [ ] Inversión de Control
+- [ ] Inyección de Dependencias
+- [ ] Patrón Método Plantilla
+
+## Más cosas por ver...
+
+### Patrones de diseño
+
+### Arquitectura de software
+
+### Arquitectura MV*
 
 ## Temario++
 
