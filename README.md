@@ -12,7 +12,7 @@ Repo de materiales y proyectos de la asignatura **IdSw2** del [Grado de Ingenier
   - Evaluación continua: [Retos!](evaluaciones/retos/README.md)
   - Exámenes
     - Parcial: Enunciado | Repositorio de trabajo y entrega.
-- Sesiones de requisitado
+- Sesiones de diseño
   - [Planteamiento](temario/sesionesDiseño/infoEquipos.md)
   - [Repo de trabajo](https://github.com/mmasias/23-24-IdSw2-SDD)
 
