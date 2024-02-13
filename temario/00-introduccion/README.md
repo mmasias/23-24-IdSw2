@@ -128,8 +128,8 @@ El descubrimiento de un orden no es tarea fácil. . . . sin embargo, una vez que
 - Ejemplos
   - **Círculo**: con 3 valores (abcisa, ordenada y radio) se definen infinitos puntos con máxima área para el mismo perímetro
   - **Simetría**: la explicación de una parte se reutiliza para la otra
-  - **Sistema de numeración binario** con secuencias de 2 símbolos permite construir infinitos números
-  - **Proporciones, razones, relaciones, funciones, ecuaciones,**​: y=2^x, con 5 elementos defino infinitos puntos correspondientes a otro dado
+  - **Sistema de numeración binario**: con secuencias de 2 símbolos permite construir infinitos números
+  - **Proporciones, razones, relaciones, funciones, ecuaciones, etc.**: y=2^x, con 5 elementos defino infinitos puntos correspondientes a otro dado
   - ¡Cuando el grajo vuela bajo, hace un frio del carajo!
 
 ### KISS
