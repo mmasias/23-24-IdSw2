@@ -2,7 +2,7 @@
 
 ## Introducción
 
-> Nivel: la base...
+> [Nivel: la base...](00-introduccion/README.md)
 
 - [ ] Software
 - [ ] Complejidad
