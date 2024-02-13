@@ -4,9 +4,9 @@
 
 > [Nivel: la base...](00-introduccion/README.md)
 
-- [ ] Software
-- [ ] Complejidad
-- [ ] Análisis y Diseño
+- [x] [Software](https://docs.google.com/presentation/d/1N0wtTid8iFAlyR8TNDbCR3FxIkJYvQ_p5kC3pqkkB1c/edit?usp=sharing)
+- [x] [Complejidad](https://docs.google.com/presentation/d/1K8TusDz7jbpSQkffZdF_-TLDTjfjfxWs-dr9Lf7js80/edit?usp=sharing)
+- [x] [Análisis y Diseño](https://docs.google.com/presentation/d/1fPbUOZ6epnsC0RzccIc-VI7f-WO2lnzxWnnpEryBTVg/edit?usp=sharing)
 
 ## Diseño
 
