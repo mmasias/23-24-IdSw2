@@ -9,7 +9,7 @@
 
 ## Diseño
 
-> Nivel: línea...
+> [Nivel: línea...](01-diseño/README.md)
 
 - [ ] Modelo del Dominio
 - [ ] Estrategias de clasificación
