@@ -9,14 +9,13 @@
 
 ## Diseño
 
-> [Nivel: línea...](01-diseño/README.md)
+> Nivel: línea...
 
-- [ ] Modelo del Dominio
-- [ ] Estrategias de clasificación
-- [ ] Relaciones entre clases
-    - [ ] xColaboración
-    - [ ] xTransmisión
-- [ ] Clean code:
+- [x] [Estrategias de clasificación](https://docs.google.com/presentation/d/1GJ-J5IKzcYiXpODAjQpXQaGmkeu8ClJ3ho_OXcZOpE4/edit?usp=sharing)
+- [x] Relaciones entre clases
+    - [x] [xColaboración](https://docs.google.com/presentation/d/1pMD3ONO1Urug8n9ZWnnURv0lS_0F0PNi1O5rv73nROY/edit?usp=sharing)
+    - [x] [xTransmisión](https://docs.google.com/presentation/d/1ghZkWWi5LOSibOTaVjteYxgyBm6G83nhW5B5BVqkV6c/edit?usp=sharing)
+- [x] [Clean code: legibilidad](https://docs.google.com/presentation/d/1JKWWhu-AzPAJ0xSPxwuM0zmDvt86FjU7WPLhK1UMmoI/edit?usp=sharing)
 
 ### Caso ejemplo: [repo de **theWorld**](https://github.com/puntoReflex/pyAspiradora)
 
