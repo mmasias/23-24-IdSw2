@@ -47,6 +47,8 @@
     - [x] [Long Method - Métodos largos](02-diseñoModular/sc.lm.md)
     - [x] [Large Class - Clase grande](02-diseñoModular/sc.lcl.md)
     - [x] [Temporary Fields - Campos temporales](02-diseñoModular/sc.tf.md)
+  - Reflexiones varias
+    - [ ] [Acerca de... getters y setter](02-diseñoModular/gettersSetter.md)
 - [ ] Patrón Modelo, Vista, Controlador (Código)
 
 ## Diseño orientado a objetos
