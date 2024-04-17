@@ -30,14 +30,23 @@
 - [ ] Acoplamiento
 - [ ] Granularidad
 - [ ] Smell Codes
-  - [x] [Alternative classes with different interfaces - Clases alternaticas con distintas interfaces](02-diseñoModular/sc.acdi.md)
-  - [x] [Features envy - Envidia de características](02-diseñoModular/sc.fe.md)
-  - [x] [Data class - Clase de datos](02-diseñoModular/sc.dc.md)
-  - [x] [Divergent Change - Cambios divergentes](02-diseñoModular/sc.dch.md)
-  - [x] [Shotgun Surgery - Cirugía a escopetazos](02-diseñoModular/sc.ss.md)
-  - [x] [Data Clumps - Grupo de datos](02-diseñoModular/sc.dcl.md)
-  - [x] [Primitive Obssesion - Obsesión por tipos primitivos](02-diseñoModular/sc.po.md)
-  - [x] [Lazy Class - Clases perezosas](02-diseñoModular/sc.lc.md)
+  - Relacionados con la cohesión
+    - [x] [Alternative classes with different interfaces - Clases alternativas con distintas interfaces](02-diseñoModular/sc.acdi.md)
+    - [x] [Features envy - Envidia de características](02-diseñoModular/sc.fe.md)
+    - [x] [Data class - Clase de datos](02-diseñoModular/sc.dc.md)
+    - [x] [Divergent Change - Cambios divergentes](02-diseñoModular/sc.dch.md)
+    - [x] [Shotgun Surgery - Cirugía a escopetazos](02-diseñoModular/sc.ss.md)
+    - [x] [Data Clumps - Grupo de datos](02-diseñoModular/sc.dcl.md)
+    - [x] [Primitive Obssesion - Obsesión por tipos primitivos](02-diseñoModular/sc.po.md)
+    - [x] [Lazy Classes - Clases perezosas](02-diseñoModular/sc.lc.md)
+  - Relacionados con el acoplamiento
+    - [x] [Inappropriate Intimacy - Inapropiada intimidad](02-diseñoModular/sc.ii.md)
+    - [x] [Incomplete Library Class - Clase de biblioteca incompleta](02-diseñoModular/sc.ilc.md)
+  - Relacionados con el tamaño
+    - [x] [Long Parameter List - Listas de parámetros larga](02-diseñoModular/sc.lpl.md)
+    - [x] [Long Method - Métodos largos](02-diseñoModular/sc.lm.md)
+    - [x] [Large Class - Clase grande](02-diseñoModular/sc.lcl.md)
+    - [x] [Temporary Fields - Campos temporales](02-diseñoModular/sc.tf.md)
 - [ ] Patrón Modelo, Vista, Controlador (Código)
 
 ## Diseño orientado a objetos
