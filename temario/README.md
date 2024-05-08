@@ -55,7 +55,7 @@
 
 > Nivel: Jerarquías de clasificación
 
-- [ ] S Principio de responsabilidad única
+- [ ] [S Principio de responsabilidad única](03-diseñoOO/S.md)
 - [ ] O Principio de abierto/cerrado
 - [ ] L Principio de Sustitución de Liskov
 - [ ] I Principio de segregación de interfaces
