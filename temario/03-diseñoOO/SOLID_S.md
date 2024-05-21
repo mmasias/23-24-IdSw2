@@ -1,4 +1,4 @@
-# S - Principio de responsabilidad única
+# Principio de responsabilidad única (SRP)
 
 ## ¿Por qué?
 
