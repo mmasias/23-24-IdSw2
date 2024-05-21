@@ -6,11 +6,6 @@ Los objetos de una clase derivada deben poder reemplazar a los objetos de la cla
 
 ![](/images/modelosUML/modelosUML/liskovEIT.svg)
 
-| |Base|a|b|
-|-|:-:|:-:|:-:|
-*parámetros*|[0..30]|[-300..300]|[0..3]
-*resultados*|[0..70]|[0..7]|[-70..70]
-
 </div>
 
 ```java
@@ -21,7 +16,7 @@ public class Base {
     }
 }
 
-public class SustituibleDerivada extends Base {
+public class A extends Base {
     @Override
     public int m(int x) {
         assert x >= -300 && x <= 300 : "Input out of range";
@@ -29,7 +24,7 @@ public class SustituibleDerivada extends Base {
     }
 }
 
-public class InsustituibleDerivada extends Base {
+public class B extends Base {
     @Override
     public int m(int x) {
         assert x >= 0 && x <= 3 : "Input out of range";
@@ -40,25 +35,32 @@ public class InsustituibleDerivada extends Base {
 public class Cliente {
     public static void main(String[] args) {
         Base base = new Base();
-        SustituibleDerivada sustituible = new SustituibleDerivada();
-        InsustituibleDerivada insustituible = new InsustituibleDerivada();
+        A a = new A();
+        B b = new B();
 
         System.out.println("Base m(15): " + base.m(15));
 
-        System.out.println("SustituibleDerivada m(15): " + sustituible.m(15));
-        System.out.println("SustituibleDerivada m(-100): " + sustituible.m(-100));
+        System.out.println("A m(15): " + a.m(15));
+        System.out.println("a m(-100): " + a.m(-100));
 
-        try {
-            System.out.println("InsustituibleDerivada m(15): " + insustituible.m(15));
-        } catch (AssertionError e) {
-            System.out.println("InsustituibleDerivada m(15): Error - " + e.getMessage());
-        }
-
-        System.out.println("InsustituibleDerivada m(2): " + insustituible.m(2));
+        System.out.println("B m(15): " + b.m(15));
+        System.out.println("b m(2): " + b.m(2));
     }
 }
-
 ```
+
+
+<div align=center>
+
+| |Base|a|b|
+|-|:-:|:-:|:-:|
+*parámetros*|[0..30]|[-300..300]|[0..3]
+*resultados*|[0..70]|[0..7]|[-70..70]
+
+![](/images/modelosUML/modelosUML/liskovEITComplete.svg)
+
+</div>
+
 
 |Se cumple cuando se redefine un método en una derivada reemplazando su precondición por una más débil y su postcondicion por una más fuerte|
 |-|
