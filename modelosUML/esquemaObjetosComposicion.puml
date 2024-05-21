@@ -1,0 +1,11 @@
+participant "cliente : Cliente" as cliente
+participant "todo : Todo" as todo
+participant "parte : Parte" as parte
+
+cliente -> todo : m4()
+todo -> parte: m1()
+todo -> parte: m3()
+cliente -> todo : m5()
+cliente -> todo : m1()
+todo -> parte : m1()
+cliente -> todo : m2()

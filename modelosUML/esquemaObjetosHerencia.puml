@@ -1,0 +1,11 @@
+participant "cliente : Cliente" as cliente
+participant "descendiente : Descendiente" as descendiente
+
+cliente -> descendiente : m4()
+descendiente -> descendiente : m1()
+descendiente -> descendiente : m3()
+cliente -> descendiente : m5()
+cliente -> descendiente : m1()
+descendiente -> descendiente : super.m1()
+cliente -> descendiente : m2()
+cliente -> descendiente : m3()
