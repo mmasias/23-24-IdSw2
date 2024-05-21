@@ -1,0 +1,42 @@
+@startuml
+
+interface Engine {
+    +start()
+}
+
+class GasolineEngine {
+    +start()
+}
+
+class ElectricEngine {
+    +start()
+}
+
+interface Transmission {
+    +changeGear()
+}
+
+class ManualTransmission {
+    +changeGear()
+}
+
+class AutomaticTransmission {
+    +changeGear()
+}
+
+class Vehicle {
+    -Engine engine
+    -Transmission transmission
+    +Vehicle(Engine engine, Transmission transmission)
+    +start()
+    +changeGear()
+}
+
+Engine <|.. GasolineEngine
+Engine <|.. ElectricEngine
+Transmission <|.. ManualTransmission
+Transmission <|.. AutomaticTransmission
+Vehicle *-- Engine
+Vehicle *-- Transmission
+
+@enduml

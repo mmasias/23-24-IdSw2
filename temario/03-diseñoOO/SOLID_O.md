@@ -103,6 +103,8 @@ Más objetos para la reusabilidad, se tiene un objeto para el todo y otro para l
 
 </div>
 
+[Por ejemplo...](herenciaComposicion.md)
+
 ### Patrón método-plantilla
 
 |||
