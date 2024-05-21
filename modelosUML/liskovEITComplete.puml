@@ -1,0 +1,20 @@
+class Cliente  {
+
+}
+
+Cliente ..> Base
+
+class Base  {
+  + m([0..30]):[0..70]
+}
+
+class SustituibleDerivada as "A\n<i>Sustituible\n<i>Derivada</i>" {
+  + m([-300..300]):[0..7]
+}
+
+class InsustituibleDerivada as "B\n<i>Insustituible\n<i>Derivada</i>" {
+  + m([0..3]):[-70..70]
+}
+
+Base <|-down- SustituibleDerivada
+Base <|-down- InsustituibleDerivada

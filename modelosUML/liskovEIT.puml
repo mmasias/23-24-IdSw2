@@ -1,0 +1,20 @@
+class Cliente  {
+
+}
+
+Cliente ..> Base
+
+class Base  {
+  + m([0..30]):[0..70]
+}
+
+class A {
+  + m([-300..300]):[0..7]
+}
+
+class B {
+  + m([0..3]):[-70..70]
+}
+
+Base <|-down- A
+Base <|-down- B
