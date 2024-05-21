@@ -1,0 +1,33 @@
+@startuml
+
+abstract class Vehicle {
+    +start(): void
+    +changeGear(): void
+}
+
+class GasolineManualVehicle{
+    +start(): void
+    +changeGear(): void
+}
+
+class GasolineAutomaticVehicle {
+    +start(): void
+    +changeGear(): void
+}
+
+class ElectricManualVehicle {
+    +start(): void
+    +changeGear(): void
+}
+
+class ElectricAutomaticVehicle {
+    +start(): void
+    +changeGear(): void
+}
+
+Vehicle <|-- GasolineManualVehicle
+Vehicle <|-- GasolineAutomaticVehicle
+Vehicle <|-- ElectricManualVehicle
+Vehicle <|-- ElectricAutomaticVehicle
+
+@enduml

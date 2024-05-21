@@ -1,0 +1,52 @@
+@startuml
+
+interface AreaCalculator {
+    +calculateArea(): double
+}
+
+class RectangleAreaCalculator{
+    -width: double
+    -height: double
+    +RectangleAreaCalculator(width: double, height: double)
+    +calculateArea(): double
+}
+
+class CircleAreaCalculator{
+    -radius: double
+    +CircleAreaCalculator(radius: double)
+    +calculateArea(): double
+}
+
+interface PerimeterCalculator {
+    +calculatePerimeter(): double
+}
+
+class RectanglePerimeterCalculator{
+    -width: double
+    -height: double
+    +RectanglePerimeterCalculator(width: double, height: double)
+    +calculatePerimeter(): double
+}
+
+class CirclePerimeterCalculator{
+    -radius: double
+    +CirclePerimeterCalculator(radius: double)
+    +calculatePerimeter(): double
+}
+
+class Shape {
+    -AreaCalculator areaCalculator
+    -PerimeterCalculator perimeterCalculator
+    +Shape(areaCalculator: AreaCalculator, perimeterCalculator: PerimeterCalculator)
+    +getArea(): double
+    +getPerimeter(): double
+}
+
+AreaCalculator <|.. RectangleAreaCalculator
+AreaCalculator <|.. CircleAreaCalculator
+PerimeterCalculator <|.. RectanglePerimeterCalculator
+PerimeterCalculator <|.. CirclePerimeterCalculator
+Shape *-- AreaCalculator
+Shape *-- PerimeterCalculator
+
+@enduml

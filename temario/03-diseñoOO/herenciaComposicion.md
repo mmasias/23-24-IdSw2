@@ -70,6 +70,8 @@ public class Main {
 }
 ```
 
+[❌🫱👃👃👃](xtln_HbC.md)
+
 ## Composición sobre herencia
 
 Supongamos que tenemos vehículos que pueden tener diferentes tipos de motores (gasolina, eléctrico, híbrido) y diferentes tipos de transmisión (manual, automática).
@@ -152,3 +154,5 @@ public class Main {
 }
 
 ```
+
+[❌🫱👃👃👃](xtln_CbH.md)
