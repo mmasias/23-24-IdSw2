@@ -17,10 +17,10 @@
     - [x] [xTransmisión](https://docs.google.com/presentation/d/1ghZkWWi5LOSibOTaVjteYxgyBm6G83nhW5B5BVqkV6c/edit?usp=sharing)
 - [x] [Clean code: legibilidad](https://docs.google.com/presentation/d/1JKWWhu-AzPAJ0xSPxwuM0zmDvt86FjU7WPLhK1UMmoI/edit?usp=sharing)
 
-### Caso ejemplo: [repo de **theWorld**](https://github.com/puntoReflex/pyAspiradora)
+### Caso ejemplo: [repo de **theWorld**](https://github.com/mmasias/theWorld)
 
-- Clases por colaboración: *rama mundo-habitacion-baldosa-gato*
-- Clases por transmisión: *rama mundo-habitacion-baldosa-elemento*
+- Clases por colaboración: *rama [mundo-habitacion-baldosa-gato](https://github.com/mmasias/theWorld/tree/mundo-habitacion-baldosa-gato)*
+- Clases por transmisión: *rama [mundo-habitacion-baldosa-elemento](https://github.com/mmasias/theWorld/tree/mundo-habitacion-baldosa-elemento)*
 
 ## Diseño modular
 
